@@ -16,9 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3rO-gI-E8d">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3rO-gI-E8d">
                                 <rect key="frame" x="112" y="353" width="193" height="74"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Change">
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="19"/>
@@ -30,8 +29,17 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="3rO-gI-E8d" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="112" id="SR6-On-p0P"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3rO-gI-E8d" secondAttribute="bottom" constant="435" id="Udt-ti-uyv"/>
+                            <constraint firstItem="3rO-gI-E8d" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="265" id="as8-ZA-hnB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3rO-gI-E8d" secondAttribute="trailing" constant="109" id="nBx-FU-dGa"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="1QI-0H-84Y"/>
+                    <connections>
+                        <outlet property="changeButton" destination="3rO-gI-E8d" id="yrf-qW-bde"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
