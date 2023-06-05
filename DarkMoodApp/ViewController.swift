@@ -12,7 +12,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var changeButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        // kullanıcının ne seçtiğine bakmadan otomatik bu modu kullanacaktır.
+        overrideUserInterfaceStyle = .light
         
     }
     override func viewWillAppear(_ animated: Bool) {
