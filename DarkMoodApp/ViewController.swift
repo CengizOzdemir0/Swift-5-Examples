@@ -12,15 +12,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var changeButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // modu bulma
-        /*let userTraitCollection = traitCollection.userInterfaceStyle
-         if userTraitCollection == .dark {
-             changeButton.tintColor = UIColor.white
-         }else{
-             changeButton.tintColor = UIColor.blue
-
-         }*/
-       
+        
+    
     }
     override func viewWillAppear(_ animated: Bool) {
         let userTraitCollection = traitCollection.userInterfaceStyle
