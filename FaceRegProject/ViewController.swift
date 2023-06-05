@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  FaceRegProject
 //
-//  Created by sys on 5.06.2023.
+//  Created by CengizOZDEMIR on 5.06.2023.
 //
 
 import UIKit
